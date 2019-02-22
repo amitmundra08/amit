@@ -857,7 +857,7 @@ blockquote {
     position: relative;
     overflow: hidden;
     background-color: #f8f8f8;
-    background-image: url(hero-bg.jpg);
+    background-image: url(./hero-bg.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed
