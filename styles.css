@@ -262,6 +262,7 @@ th {
 .vertical--center {
     position: relative;
     top: 50%;
+    left: -10%;
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -298,7 +299,8 @@ th {
 }
 
 .text--light {
-    font-weight: 300
+    font-weight: 300;
+    color:#F7EEEE
 }
 
 .text--bold {
@@ -322,7 +324,7 @@ th {
 }
 
 .bg--white {
-    background-color: white
+    background-color: #F7EEEE
 }
 
 html {
@@ -592,8 +594,12 @@ blockquote {
     margin-bottom: 1.5em
 }
 
+.site_wrapper {
+    background-color: #F7EEEE;
+}
+
 .header {
-    background-color: white;
+    background-color: #F7EEEE;
     height: 64px;
     position: fixed;
     top: 0;
@@ -852,15 +858,14 @@ blockquote {
 }
 
 .hero {
-    height: 100vh;
-    margin-top: 60px;
+    height: "100%";
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: #f8f8f8;
-    background-image: url(./hero-bg.jpg);
+    background-image: url(./hero-bg.jpeg);
     -webkit-background-size: cover;
     background-size: cover;
-    background-attachment: fixed
+    background-attachment: fixed;
 }
 
 @media screen and (min-width: 40.063em) {
